@@ -1,0 +1,55 @@
+.review-Item{
+    border: 2px solid #1C2B35;
+    border-radius: 8px;
+    padding: 13px;
+    width: 571px;
+    height: 107px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    
+}
+.product-img{
+    margin-right: 15px;
+}
+.product-img img{
+    width: 91px;
+    height: 91px;
+    border-radius: 6px;
+}
+.review-item-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.review-item-detail h6{
+    margin: 0px;
+}
+.review-item-detail p{
+    margin: 0px;
+    font-size: 15px;
+}
+.price{
+    color: orange;
+}
+.shipping-charge{
+    color: orange;
+}
+.review-item-btn button{
+    color:  #EB5757;
+    width: 55px;
+    height: 55px;
+    font-size: 35px;
+    border-radius: 50%;
+    background-color: pink;
+    border: 0px;
+    cursor: pointer;
+    
+}
+.product-name{
+    font-size: 21px;
+    color: #1C2B35;
+    font-family: 'Lato';
+}
+
