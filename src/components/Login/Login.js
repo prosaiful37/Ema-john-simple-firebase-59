@@ -11,11 +11,11 @@ const Login = () => {
                     <h2 className='from-title'> Login</h2>
                     <div className="input-group">
                         <label htmlFor="Eamil">Email</label>
-                        <input type="email" name="email" id="" />
+                        <input type="email" name="email" id="" required />
                     </div>
                     <div className="input-group">
                         <label htmlFor="password">Password</label>
-                        <input type="password" name="password" id="" />
+                        <input type="password" name="password" id="" required />
                     </div>
                         <input className='form-submit' type="submit" value="Login" />
                     <p className='form-link-title'>
